@@ -1,0 +1,7 @@
+runs:
+  using: "composite"
+  steps:
+  - name: "hello"
+    shell: bash
+    run:
+      echo hello
